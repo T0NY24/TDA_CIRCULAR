@@ -84,7 +84,3 @@ while not cola_pedidos.esta_vacia():
     pedido = cola_pedidos.desencolar()
     print(f"Procesando: {pedido.descripcion}")
 
-# Salida esperada:
-# Procesando: Pedido de cliente 1
-# Procesando: Pedido de cliente 2
-# Procesando: Pedido de cliente 3
